@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour & Travel website(Tailwind)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <!-- navbar starting -->
+    <div class=" h-[100vh] bg-[url('../Images/header.jpg')] bg-cover bg-center">
+        <div class=" flex direction-row justify-between items-center mx-[8rem] py-[2rem]">
+            <h3 class="text-white text-2xl">Tour & Travel</h3>
+            <div class=" text-white flex gap-5 text-lg">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Packages</a>
+                <a href="#">Trending</a>
+                <a href="#">Contact US</a>
+            </div>
+        </div>
+        <div class=" text-white text-center text-6xl font-bold py-24 ">
+            <h1>Exploring the beauty of nature</h1>
+            <h2 class="pt-5">Discover the new You</h2>
+        </div>
+        <div class=" text-black p-10 mx-32 bg-[rgba(0,0,0,0.5)] rounded">
+            <form class="flex direction-row gap-8 justify-center bg-white py-4 rounded w-[100%]">
+                <div>
+                    <label>Where You Want To GO?</label><br>
+                    <input type="text" placeholder="Country,ZIP" class="outline-none"><br>
+                </div>
+
+                <div>
+                    <label>Check In</label><br>
+                    <input type="text" placeholder="Check IN" class="outline-none"><br>
+                </div>
+
+                <div>
+                    <label>Check Out</label><br>
+                    <input type="text" placeholder="Check Out" class="outline-none"><br>
+                </div>
+
+                <div>
+                    <label>How many are you?</label><br>
+                    <input type="text" placeholder="Mention Guests" class="outline-none"><br>
+                </div>
+
+                <button class="bg-red-600 px-8 rounded text-white font-bold">Check Availability</button>
+            </form>
+        </div>
+    </div>
+    <!-- navbar ending -->
+    <!-- card1(Trending) starting pg2 -->
+    <div class="my-24">
+        <div class="flex justify-between font-bold  mx-40">
+            <h1 class="text-4xl">Trending 2024</h1>
+            <div class="text-3xl">
+                <i class="ri-arrow-left-wide-line border-black  border-2 rounded-full p-1"></i>
+                <i class="ri-arrow-right-wide-line border-black border-2 rounded-full p-1 ml-2"></i>
+            </div>
+        </div>
+        <div class="flex direction-row gap-12 justify-center pt-20">
+            <div class=" shadow-2xl  w-[23rem] h-[32rem] rounded-xl ">
+                <img src="../Images/trending-1.jpg" alt="" class="w-[23rem] h-[16rem] rounded-3xl p-5">
+                <div class="ps-5">
+                    <h3 class="font-bold text-2xl ">Mountain Hiking Tour</h3>
+                    <p class="text-md text-gray-500 ">Hiking Out | Stoke on Trent</p>
+                </div>
+                <div class="flex direction-row items-center gap-32 pt-6 ps-5">
+                    <div class="">
+                        <p>For</p>
+                        <h1 class="font-bold text-lg">$957.50</h1>
+                        <p>*price varies</p>
+                    </div>
+                    <div class="">
+                        <div class="text-yellow-400">
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-half-s-line"></i>
+                            <i class="ri-star-s-line"></i>
+                        </div>
+                        <p class="ps-12">4.8(10)</p>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex direction-row gap-2 items-center pt-6 ps-5">
+                        <i class="ri-time-line text-red-500"></i>
+                        <p>7 Days</p>
+                    </div>
+                    <div class="flex direction-row gap-2 items-center ps-5">
+                        <i class="ri-check-line text-red-500"></i>
+                        <p>Free Cancellation</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" shadow-2xl w-[23rem] h-[32rem] rounded-xl">
+                <img src="../Images/trending-2.jpg" alt="" class="w-[23rem] h-[16rem] rounded-3xl p-5">
+                <div class="ps-5">
+                    <h3 class="font-bold text-2xl ">Train Tour Skyline</h3>
+                    <p class="text-md text-gray-500">Adventure Journey | Group Tour</p>
+                </div>
+                <div class="flex direction-row items-center gap-32 pt-6 ps-5">
+                    <div class="">
+                        <p>For</p>
+                        <h1 class="font-bold text-lg">$500.50</h1>
+                        <p>*price varies</p>
+                    </div>
+                    <div class="">
+                        <div class="text-yellow-400">
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-half-s-line"></i>
+                            <i class="ri-star-s-line"></i>
+                        </div>
+                        <p class="ps-12">4.2(25)</p>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex direction-row gap-2 items-center pt-6 ps-5">
+                        <i class="ri-time-line text-red-500"></i>
+                        <p>3 Days</p>
+                    </div>
+                    <div class="flex direction-row gap-2 items-center ps-5">
+                        <i class="ri-check-line text-red-500"></i>
+                        <p>Free Cancellation</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shadow-2xl w-[23rem] h-[32rem] rounded-xl">
+                <img src="../Images/trending-3.jpg" alt="" class="w-[23rem] h-[16rem] rounded-3xl p-5">
+                <div class="ps-5">
+                    <h3 class="font-bold text-2xl ">Wild Forest Life</h3>
+                    <p class="text-md text-gray-500">Scenic Beauty | Adrenaline Rush</p>
+                </div>
+                <div class="flex direction-row items-center gap-32 pt-6 ps-5">
+                    <div class="">
+                        <p>For</p>
+                        <h1 class="font-bold text-lg">$745.00</h1>
+                        <p>*price varies</p>
+                    </div>
+                    <div class="">
+                        <div class="text-yellow-400">
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-half-s-line"></i>
+                            <i class="ri-star-s-line"></i>
+                        </div>
+                        <p class="ps-12">4.5(15)</p>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="flex direction-row gap-2 items-center pt-6 ps-5">
+                        <i class="ri-time-line text-red-500"></i>
+                        <p>6 Days</p>
+                    </div>
+                    <div class="flex direction-row gap-2 items-center ps-5">
+                        <i class="ri-check-line text-red-500"></i>
+                        <p>Free Cancellation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- card1(Trending) ending pg2 -->
+    <!-- grid staring pg3 -->
+    <div class="grid my-24">
+        <div class="flex items-center justify-between mx-40">
+            <h1 class="font-bold text-4xl">Top Destination</h1>
+            <div class="text-3xl">
+                <i class="ri-arrow-left-wide-line border-black border-2 rounded-full p-1"></i>
+                <i class="ri-arrow-right-wide-line border-black border-2 rounded-full p-1 ml-2"></i>
+            </div>
+        </div>
+        <div class=" my-16 mx-36 grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
+            <img src="./Images/destination-1.jpg" alt="error" class="w-full h-auto rounded-lg">
+            <img src="./Images/destination-2.jpg" alt="error" class="w-full h-auto rounded-lg">
+            <img src="./Images/destination-3.jpg" alt="error" class="w-full h-auto rounded-lg">
+            <img src="./Images/destination-4.jpg" alt="error" class="w-full h-auto rounded-lg">
+            <img src="./Images/destination-5.jpg" alt="error" class="w-full h-auto rounded-lg">
+            <img src="./Images/destination-6.jpg" alt="error" class="w-full h-auto rounded-lg">
+        </div>
+    </div>
+    <!-- grid ending pg3 -->
+    <!-- card2(best seller) starting pg4 -->
+    <div class="Best Seller ">
+        <div class="flex items-center justify-between mx-40">
+            <h1 class="font-bold text-4xl">Best Seller</h1>
+            <button class="bg-red-500 text-white font-bold py-2 px-6 rounded">Check All</button>
+        </div>
+        <div class=" flex gap-8 justify-center my-20">
+            <div class="w-[370px]">
+                <img src="./Images/seller-1.jpg" alt="error" class="w-88 rounded-xl">
+                <div class="text-center mt-10 mx-12">
+                    <h1 class="text-xl font-bold pb-3">Trains Tour Skyline</h1>
+                    <p class="text-gray-500">Embark on a scenic railway adventure with Trains Tour Skyline</p>
+                </div>
+            </div>
+
+            <div class="w-[370px]">
+                <img src="./Images/seller-2.jpg" alt="error" class="w-88 rounded-xl">
+                <div class="text-center mt-10 mx-12">
+                    <h1 class="text-xl font-bold pb-3">Sea Nature View</h1>
+                    <p class="text-gray-500 ">Where the ocean's beauty meets your soul's serenity</p>
+                </div>
+            </div>
+
+            <div class="w-[370px]">
+                <img src="./Images/seller-3.jpg" alt="error" class="w-88 rounded-xl">
+                <div class="text-center mt-10 mx-10">
+                    <h1 class="text-xl font-bold pb-3">Tokyo Market Ptr</h1>
+                    <p class="text-gray-500">Where Tradition Meets Modern Marvels in Every Aisle</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- card2(best seller) ending pg4 -->
+    <!-- video starting pg5 -->
+    <div class="bg-[url('./Images/tour.jpg')] bg-center bg-cover h-[450px] my-10">
+        <h1 class="text-white text-4xl text-center font-bold pt-28">Watch Our Video Tour</h1>
+        <video src="./Images/video.mp4" autoplay muted
+            class="w-[500px]  rounded-lg translate-y-[50px] translate-x-[520px] border-2 border-white"></video>
+    </div>
+    <!-- video ending pg5 -->
+    <!-- card(tour guide) starting pg6 -->
+    <div class="Tour guide my-28">
+        <div class="flex items-center justify-between mx-40">
+            <h1 class="text-4xl font-bold">Tour Guide</h1>
+            <div class="text-3xl">
+                <i class="ri-arrow-left-wide-line border-black border-2 rounded-full p-1"></i>
+                <i class="ri-arrow-right-wide-line border-black border-2 rounded-full p-1 ml-2"></i>
+            </div>
+        </div>
+        <div class="flex justify-center mt-20 gap-8">
+            <div class="w-[380px] h-[500px] rounded-xl shadow-2xl">
+                <img src="./Images/guide-1.jpg" alt="error" class="w-84 rounded-t-xl">
+                <div class="">
+                    <div class="flex items-center justify-between mx-5 mt-5">
+                        <h1 class="text-xl font-bold">Elias Hossain</h1>
+                        <h1 class="text-xl font-bold text-red-500">Forest Guide</h1>
+                    </div>
+                    <p class="mx-5 my-4 text-gray-500 text-lg">With a deep passion for forests, our experts are
+                        committed to craft immersive experiences to
+                        connect with the wilderness.</p>
+                </div>
+            </div>
+            <div class="w-[380px] h-[500px] rounded-xl shadow-2xl">
+                <img src="./Images/guide-2.jpg" alt="error" class="w-84 rounded-t-xl">
+                <div class="">
+                    <div class="flex items-center justify-between mx-5 mt-5">
+                        <h1 class="text-xl font-bold">Ahmed Hamdy</h1>
+                        <h1 class="text-xl font-bold text-red-500">Ocean Guide</h1>
+                    </div>
+                    <p class="mx-5 my-4 text-gray-500 text-lg">Join us as we embark on a journey of inspiring encounters
+                        in the ocean's surface where secrets become your unforgettable memories.</p>
+                </div>
+            </div>
+            <div class="w-[380px] h-[500px] rounded-xl shadow-2xl">
+                <img src="./Images/guide-3.jpg" alt="error" class="w-84 rounded-t-xl">
+                <div class="">
+                    <div class="flex items-center justify-between mx-5 mt-5">
+                        <h1 class="text-xl font-bold">Esiam Samir</h1>
+                        <h1 class="text-xl font-bold text-red-500">City Guide</h1>
+                    </div>
+                    <p class="mx-5 my-4 text-gray-500 text-lg">With a passion for travel and a commitment to excellence,
+                        we curate memorable experiences that go beyond the ordinary.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- card(tour guide) ending pg6 -->
+    <!-- card(client) starting pg7 -->
+    <div class="client mt-40">
+        <div class="flex justify-between items-center mx-40">
+            <h1 class="text-4xl font-bold">Client Feedback</h1>
+            <div class="text-3xl">
+                <i class="ri-arrow-left-wide-line border-black border-2 rounded-full p-1"></i>
+                <i class="ri-arrow-right-wide-line border-black border-2 rounded-full p-1 ml-2"></i>
+            </div>
+        </div>
+        <div class="flex justify-center gap-8 mt-20">
+            <div class="shadow-2xl rounded-xl w-[380px] h-[440px]">
+                <div class="flex justify-between my-6 mx-5">
+                    <i class="ri-double-quotes-r  text-3xl text-red-500"></i>
+                    <div class="flex gap-0 text-yellow-500 text-2xl">
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-half-s-line"></i>
+                        <i class="ri-star-s-line"></i>
+                    </div>
+                </div>
+                <p class="text-lg text-gray-500 mx-5">I had the most incredible experience using this tour and travel
+                    website. From booking my flights and
+                    accommodations to discovering unique local activities, everything was seamless and well-organized.
+                    It made my trip stress-free and unforgettable. I can't wait to plan my next adventure with them!</p>
+                <div class="flex items-center gap-5 mt-4 mx-5">
+                    <img src="./Images/client-1.jpg" alt="error" class="rounded-full w-16">
+                    <div class="flex flex-col">
+                        <h1 class="font-bold ">Mike Henderson</h1>
+                        <p class="text-sm text-gray-500  font-medium">Business Manager & CEO</p>
+                    </div>
+                </div>
+            </div>
+            <div class="shadow-2xl rounded-xl w-[380px] h-[440px]">
+                <div class="flex justify-between my-6 mx-5">
+                    <i class="ri-double-quotes-r  text-3xl text-red-500"></i>
+                    <div class="flex gap-0 text-yellow-500 text-2xl">
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-half-s-line"></i>
+                        <i class="ri-star-s-line"></i>
+                    </div>
+                </div>
+                <p class="text-lg text-gray-500 mx-5">As a frequent traveler, I've used various tour and travel
+                    websites, but this one stands out for its attention to detail and personalized recommendations. The
+                    itineraries they offer are thoughtfully curated, and the insider tips on their blog were a
+                    game-changer for my recent trip. Highly recommended! Thanks to them.
+                <p>
+                <div class="flex items-center gap-5 mt-4 mx-5">
+                    <img src="./Images/client-2.jpg" alt="error" class="rounded-full w-16">
+                    <div class="flex flex-col">
+                        <h1 class="font-bold ">Paul Harrison</h1>
+                        <p class="text-sm text-gray-500  font-medium">Director</p>
+                    </div>
+                </div>
+            </div>
+            <div class="shadow-2xl rounded-xl w-[380px] h-[440px]">
+                <div class="flex justify-between my-6 mx-5">
+                    <i class="ri-double-quotes-r  text-3xl text-red-500"></i>
+                    <div class="flex gap-0 text-yellow-500 text-2xl">
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-s-fill"></i>
+                        <i class="ri-star-half-s-line"></i>
+                        <i class="ri-star-s-line"></i>
+                    </div>
+                </div>
+                <p class="text-lg text-gray-500 mx-5">I'm not an experienced traveler, but this website made me feel
+                    like a pro. The customer support team was incredibly helpful in guiding me through the planning
+                    process, and their city guides provided valuable insights. Thanks to them, I had a fantastic time
+                    city with confidence. I can't thank them enough!</p>
+                <div class="flex items-center gap-5 mt-4 mx-5">
+                    <img src="./Images/client-3.jpg" alt="error" class="rounded-full w-16">
+                    <div class="flex flex-col">
+                        <h1 class="font-bold ">John Willimas</h1>
+                        <p class="text-sm text-gray-500  font-medium">Content Writer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- card(client) ending pg7 -->
+    <!-- subscribe starting pg8 -->
+    <div class="h-[300px] bg-[url('../Images/subscribe.jpg')] bg-cover bg-center my-20">
+        <h1 class="text-white text-5xl text-center font-bold pt-20">Subscribe and be Updated</h1>
+        <div class=" bg-white py-2 my-8 w-[900px] rounded-lg flex gap-[408px] translate-x-[270px]">
+            <input type="text" placeholder="Please enter your email address" class="w-80 outline-none ml-10">
+            <button class="bg-red-600 text-white font-bold rounded py-2 px-6">Subscribe</button>
+        </div>
+    </div>
+    <!-- subscribe ending pg8 -->
+    <!-- footer starting pg9 -->
+    <div class="footer">
+        <div class="my-18 flex justify-center gap-40">
+            <div class="w-64">
+                <h1 class="text-lg font-bold mb-4">CodeWare</h1>
+                <p class="text-gray-500">Welcome to CodeWare, our tour and travel website is your gateway to a world of
+                    CodeWare-inducing
+                    experiences.</p>
+            </div>
+            <div class="">
+                <h1 class="text-lg font-bold mb-3">Quick Links</h1>
+                <div class="flex flex-col text-gray-400 font-medium leading-9">
+                    <a href="#">Home</a>
+                    <a href="#">Destinations</a>
+                    <a href="#">Write to US</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+            <div class="">
+                <h1 class="text-lg font-bold mb-3">Features</h1>
+                <div class="flex flex-col text-gray-400 font-medium leading-9">
+                    <a href="#">Vacation Package</a>
+                    <a href="#">List of Tours</a>
+                    <a href="#">Gallery</a>
+                    <a href="#">Travel on Budget</a>
+                </div>
+            </div>
+            <div class="">
+                <h1 class="text-lg font-bold mb-5">Follow Us</h1>
+                <i class="ri-twitter-fill bg-red-500 p-2 text-white text-xl rounded-full "></i>
+                <i class="ri-linkedin-fill bg-red-500 p-2 text-white text-xl rounded-full ml-2"></i>
+                <i class="ri-instagram-line bg-red-500 p-2 text-white text-xl rounded-full ml-2"></i>
+                <i class="ri-facebook-fill bg-red-500 p-2 text-white text-xl rounded-full ml-2"></i>
+
+            </div>
+        </div>
+        <p class="text-gray-500 mt-28 mb-5 text-center text-sm">Copyright © 2023 CodeWare Design Mastey. All rights
+            reserved.</p>
+    </div>
+    <!-- footer ending pg9 -->
+
+
+</body>
+
+</html>
