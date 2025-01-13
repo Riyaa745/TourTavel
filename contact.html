@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+</head>
+
+<body>
+    <!-- Contact Page  -->
+    <div className="flex flex-row justify-around gap-20 bg-white text-black ">
+
+        <!-- Left Side: Contact Details  -->
+        <div className="w-full md:w-1/2">
+            <!-- Title and Intro -->
+            <h1 className="text-3xl sm:text-5xl font-semibold">Get in Touch</h1>
+            <p className="text-sm sm:text-base text-slate-700 tracking-wider mt-3 mb-6">
+                Reach out for personalized academic support.
+            </p>
+
+            <!-- Contact Information  -->
+            <div className="text-sm leading-relaxed text-slate-700 space-y-4">
+                <!-- Email  -->
+                <div className="flex items-center gap-3 text-gray-500 hover:text-blue-800">
+                    <MdMailOutline className=" text-xl" />
+                    <a href="mailto:editor@thesislogix.in" className="hover:underline">
+                        editor@thesislogix.in
+                    </a>
+                </div>
+
+                <!-- Phone  -->
+                <div className="flex items-center gap-3 text-gray-500 hover:text-blue-800">
+                    <FaPhoneAlt className="text-lg" />
+                    <a href="tel:+919691815989" className="hover:underline">
+                        +91 9691815989
+                    </a>
+                </div>
+
+                <!-- Address  -->
+                <div className="flex items-center gap-3 text-gray-500 hover:text-blue-800">
+                    <FaLocationDot className="text-xl" />
+                    <p>
+                        C-409, Sagar Landmark, Ayodhya Bypass Road, Bhopal - 462010
+                    </p>
+                </div>
+            </div>
+
+        <!-- Right Side: Contact Form -->
+        <div className="w-full md:w-1/2">
+            <form className="text-xl leading-10 text-gray-600 space-y-5 ">
+                <!-- Name Input  -->
+                <div className="flex flex-col gap-4">
+                    <label htmlFor="name" className="text-black font-medium tracking-wider">Name</label>
+                    <input id="name" type="text" placeholder="Enter your name"
+                        className="text-sm border-b border-black outline-none py-1 tracking-wider pb-4" />
+                </div>
+
+                <!-- Email Input  -->
+                <div className="flex flex-col gap-4">
+                    <label htmlFor="email" className="text-black font-medium tracking-wider">Email</label>
+                    <input id="email" type="email" placeholder="Enter your email"
+                        className="text-sm border-b border-black outline-none py-1 tracking-wider pb-4" />
+                </div>
+
+                <!-- Message Input  -->
+                <div className="flex flex-col gap-4">
+                    <label htmlFor="message" className='text-black font-medium tracking-wider'>Message</label>
+                    <textarea id="message" placeholder="Type your Message"
+                        className="text-sm border-b border-black outline-none tracking-wider pb-4"></textarea>
+                </div>
+
+                <!-- Terms Checkbox  -->
+                <div className="flex gap-2 py-4">
+                    <input id="terms" type="checkbox" className="w-4 h-4" />
+                    <label htmlFor="terms" className="text-sm">I accept the Terms</label>
+                </div>
+
+                <!-- Submit Button  -->
+                <button
+                    className="bg-blue-950 text-white px-8 py-4 text-sm font-semi tracking-widest hover:bg-gray-800 ">
+                    Submit
+                </button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
